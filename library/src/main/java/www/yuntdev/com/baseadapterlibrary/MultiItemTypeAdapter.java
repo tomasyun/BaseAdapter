@@ -1,4 +1,4 @@
-package www.yuntdev.com.library;
+package www.yuntdev.com.baseadapterlibrary;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import www.yuntdev.com.library.base.ItemViewDelegate;
-import www.yuntdev.com.library.base.ItemViewDelegateManager;
-import www.yuntdev.com.library.base.ViewHolder;
+import www.yuntdev.com.baseadapterlibrary.base.ItemViewDelegate;
+import www.yuntdev.com.baseadapterlibrary.base.ItemViewDelegateManager;
+import www.yuntdev.com.baseadapterlibrary.base.ViewHolder;
 
 public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
     protected Context mContext;

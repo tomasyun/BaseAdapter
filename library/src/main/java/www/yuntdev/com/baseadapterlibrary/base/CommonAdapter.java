@@ -1,11 +1,11 @@
-package www.yuntdev.com.library.base;
+package www.yuntdev.com.baseadapterlibrary.base;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 
 import java.util.List;
 
-import www.yuntdev.com.library.MultiItemTypeAdapter;
+import www.yuntdev.com.baseadapterlibrary.MultiItemTypeAdapter;
 
 public abstract class CommonAdapter<T> extends MultiItemTypeAdapter<T> {
     protected Context mContext;

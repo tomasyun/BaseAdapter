@@ -1,4 +1,4 @@
-package www.yuntdev.com.library.base;
+package www.yuntdev.com.baseadapterlibrary.base;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
